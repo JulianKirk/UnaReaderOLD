@@ -1,6 +1,8 @@
 import QtQuick 2.0
+import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
+import "CustomWidgets"
 
 Window {
     width: 1280
@@ -8,23 +10,58 @@ Window {
     visible: true
     title: qsTr("UnaReader")
 
-    RowLayout {
-        spacing: 2
-        width: 1280
-        height: 100
+    TabBar {
+        id: menuBar
+        width: parent.width
         
-        Button {
-            text: "Button1"
-            onClicked: model.submit()
+        TabButton {
+            text: qsTr("Recent")
         }
-        Button {
-            text: "Button2"
-            onClicked: model.revert()
+        TabButton {
+            text: qsTr("All Books")
+        }
+        TabButton {
+            text: qsTr("Collections")
         }
     }
 
-    GridLayout {
+    StackLayout {
+        width: parent.width
+        currentIndex: menuBar.currentIndex
+
+        anchors.top : menuBar.bottom
         
+        Item {
+            id: homeTab
+
+            BookGrid {
+                
+            }
+        }
+        Item {
+            id: discoverTab
+            
+            Rectangle {
+                width: 100
+                height: 100
+                color: "red"
+                border.color: "black"
+                border.width: 5
+                radius: 10
+            }
+        }
+        Item {
+            id: activityTab
+
+            Rectangle {
+                width: 100
+                height: 100
+                color: "black"
+                border.color: "black"
+                border.width: 5
+                radius: 10
+            }
+        }
     }
 }
 
