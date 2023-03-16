@@ -1,0 +1,4 @@
+module UnaReader
+typeinfo appUnaReader.qmltypes
+prefer :/UnaReader/
+

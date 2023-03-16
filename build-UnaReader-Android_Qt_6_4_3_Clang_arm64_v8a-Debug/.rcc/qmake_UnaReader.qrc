@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/UnaReader">
+    <file alias="qmldir">/home/avnzx/Desktop/git/UnaReader/build-UnaReader-Android_Qt_6_4_3_Clang_arm64_v8a-Debug/UnaReader/qmldir</file>
+  </qresource>
+</RCC>
+

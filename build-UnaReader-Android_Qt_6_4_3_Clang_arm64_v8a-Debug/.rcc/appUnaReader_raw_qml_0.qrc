@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/UnaReader/">
+    <file alias="main.qml">/home/avnzx/Desktop/git/UnaReader/UnaReader/main.qml</file>
+  </qresource>
+</RCC>
+

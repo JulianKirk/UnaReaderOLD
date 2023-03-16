@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7085828593befe3c1c5e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UnaReader",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-acb51d3328f8c7afc7cf.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-6431cf9b67ba4889b2d6.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-f3c9ddf3876303c3056c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-e010529a7c0aca04e3b2.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-40f5da640cdb0c9836fb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-55c58b0adb4ed2c04a63.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-c55a45d24e00989abc0d.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader-Debug-2dfa491bc2856cff22eb.json",
+					"name" : "appUnaReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_autogen-Debug-3b0d51f81d13442b8433.json",
+					"name" : "appUnaReader_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_autogen_timestamp_deps-Debug-561ee0363e92a17733d2.json",
+					"name" : "appUnaReader_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_make_aab-Debug-77bdc5ff74a82949ae2e.json",
+					"name" : "appUnaReader_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_make_apk-Debug-71a6739e4d4b8c531417.json",
+					"name" : "appUnaReader_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_other_files-Debug-a9282dd11e40e13bde38.json",
+					"name" : "appUnaReader_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_prepare_apk_dir-Debug-0cdc7a9953c41371b9e6.json",
+					"name" : "appUnaReader_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmllint-Debug-2dd05579424cb01e1c61.json",
+					"name" : "appUnaReader_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmllint_json-Debug-c16e0a4f9352183e82f3.json",
+					"name" : "appUnaReader_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmltyperegistration-Debug-7c15001635dc296489d3.json",
+					"name" : "appUnaReader_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_tooling-Debug-f08c4b162e89ab227ed1.json",
+					"name" : "appUnaReader_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-a50339d9c85336ca395c.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/avnzx/Desktop/git/UnaReader/build-UnaReader-Android_Qt_6_4_3_Clang_arm64_v8a-Debug",
+		"source" : "/home/avnzx/Desktop/git/UnaReader/UnaReader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
