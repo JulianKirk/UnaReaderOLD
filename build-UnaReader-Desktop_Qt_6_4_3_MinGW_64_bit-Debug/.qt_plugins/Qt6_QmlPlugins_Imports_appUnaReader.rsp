@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader
+-cmake-output
+-output-file
+C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake
+-importPath
+C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/UnaReader
+-importPath
+C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.4.3/mingw_64/./qml
+-qrcFiles
+C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc
+C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc

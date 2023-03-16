@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1dffdda2c48f3bf245b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UnaReader",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-53ebc81ade9bf9228d6a.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4d52e2a691af25dbe48e.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-4f755c875c5ad02bb5dd.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader-Debug-cd53447b2839ee5185ae.json",
+					"name" : "appUnaReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_autogen-Debug-4b2ecf975fac0056eb21.json",
+					"name" : "appUnaReader_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_autogen_timestamp_deps-Debug-228e763db84990f00dcc.json",
+					"name" : "appUnaReader_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_other_files-Debug-c2d433ec921357f3aecf.json",
+					"name" : "appUnaReader_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmlimportscan-Debug-e14c6525518cae705e21.json",
+					"name" : "appUnaReader_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmllint-Debug-df22dc76b5447b266369.json",
+					"name" : "appUnaReader_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmllint_json-Debug-04d35e22a8c835ec72d6.json",
+					"name" : "appUnaReader_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_qmltyperegistration-Debug-ca4fa7a8a7859715853d.json",
+					"name" : "appUnaReader_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appUnaReader_tooling-Debug-21f950d7532e87012cba.json",
+					"name" : "appUnaReader_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

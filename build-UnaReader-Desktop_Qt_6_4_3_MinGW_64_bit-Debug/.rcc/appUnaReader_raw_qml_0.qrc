@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/UnaReader/">
+    <file alias="main.qml">C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml</file>
+  </qresource>
+</RCC>
+
