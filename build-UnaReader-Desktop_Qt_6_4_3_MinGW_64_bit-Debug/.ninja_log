@@ -92,3 +92,14 @@
 350	426	7006703778062043	CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj	78870d64d4b02a3a
 345	2704	7006703800797653	CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_main_qml.cpp.obj	f2d698075427cb86
 2704	3022	7006703803897222	appUnaReader.exe	7353f67ced668701
+7	107	7006714589962566	UnaReader/main.qml	86e72d69f4770eb8
+7	107	7006714589962566	C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/UnaReader/main.qml	86e72d69f4770eb8
+15	181	7006714590760955	.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake	50567d8177b41516
+15	181	7006714590760955	C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake	50567d8177b41516
+191	270	7006714591637626	.rcc/qrc_appUnaReader_raw_qml_0.cpp	93cfdd0b08cc174e
+191	270	7006714591637626	C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_appUnaReader_raw_qml_0.cpp	93cfdd0b08cc174e
+181	390	7006714592781457	.rcc/qmlcache/appUnaReader_main_qml.cpp	f7a82e0dca47e8e8
+181	390	7006714592781457	C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_main_qml.cpp	f7a82e0dca47e8e8
+396	494	7006714593938784	CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj	78870d64d4b02a3a
+390	2911	7006714618102950	CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_main_qml.cpp.obj	f2d698075427cb86
+2911	3230	7006714621182187	appUnaReader.exe	7353f67ced668701

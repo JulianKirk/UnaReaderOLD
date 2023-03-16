@@ -9,7 +9,10 @@ Window {
     title: qsTr("UnaReader")
 
     RowLayout {
-    spacing: 2
+        spacing: 2
+        width: 1280
+        height: 100
+        
         Button {
             text: "Button1"
             onClicked: model.submit()
@@ -20,9 +23,8 @@ Window {
         }
     }
 
-    GridLayout 
-    {
-
+    GridLayout {
+        
     }
 }
 
