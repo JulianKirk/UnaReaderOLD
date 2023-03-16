@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7b814e61280a256538ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "UnaReader",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "UnaReader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnaReader-Debug-dc9ec518300a5448348e.json",
+					"name" : "UnaReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnaReader_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnaReader_autogen-Debug-c95354fdafa52b2182b8.json",
+					"name" : "UnaReader_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnaReader_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnaReader_autogen_timestamp_deps-Debug-e5a93d620bf6180cd4af.json",
+					"name" : "UnaReader_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/proga/Documents/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/proga/Documents/UnaReader/UnaReader"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
