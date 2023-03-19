@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
-import "CustomWidgets"
+import "files:/CustomWidgets"
 
 Window {
     width: 1280
@@ -34,8 +34,9 @@ Window {
         Item {
             id: homeTab
 
-            BookGrid {
-                
+            BookGrid 
+            {
+
             }
         }
         Item {
