@@ -27,12 +27,12 @@
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
 			"add_dependencies",
+			"qt6_target_qml_sources",
 			"_qt_internal_scan_qml_imports",
 			"_qt_internal_generate_deploy_qml_imports_script",
 			"cmake_language",
 			"_qt_internal_finalize_executable",
 			"qt6_finalize_target",
-			"qt6_target_qml_sources",
 			"target_include_directories",
 			"_qt_internal_qml_type_registration",
 			"target_sources",
@@ -104,13 +104,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -446,48 +446,7 @@
 				"parent" : 67
 			},
 			{
-				"file" : 1,
-				"line" : -1,
-				"parent" : 0
-			},
-			{
-				"command" : 18,
-				"file" : 25,
-				"line" : 1,
-				"parent" : 69
-			},
-			{
-				"command" : 17,
-				"file" : 0,
-				"line" : 705,
-				"parent" : 70
-			},
-			{
-				"command" : 16,
-				"file" : 0,
-				"line" : 640,
-				"parent" : 71
-			},
-			{
-				"command" : 15,
-				"file" : 0,
-				"line" : 640,
-				"parent" : 72
-			},
-			{
 				"command" : 14,
-				"file" : 5,
-				"line" : 2891,
-				"parent" : 73
-			},
-			{
-				"command" : 13,
-				"file" : 5,
-				"line" : 2744,
-				"parent" : 74
-			},
-			{
-				"command" : 19,
 				"file" : 5,
 				"line" : 611,
 				"parent" : 15
@@ -496,6 +455,47 @@
 				"command" : 13,
 				"file" : 5,
 				"line" : 2187,
+				"parent" : 69
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 19,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 71
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 705,
+				"parent" : 72
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 73
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 640,
+				"parent" : 74
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 2891,
+				"parent" : 75
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 2744,
 				"parent" : 76
 			},
 			{
@@ -568,13 +568,13 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 1987,
-				"parent" : 76
+				"parent" : 69
 			},
 			{
 				"command" : 28,
 				"file" : 5,
 				"line" : 2080,
-				"parent" : 76
+				"parent" : 69
 			},
 			{
 				"command" : 22,
@@ -586,31 +586,43 @@
 				"command" : 22,
 				"file" : 5,
 				"line" : 2129,
-				"parent" : 76
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 1987,
+				"parent" : 69
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2129,
+				"parent" : 69
 			},
 			{
 				"command" : 27,
 				"file" : 5,
 				"line" : 2205,
-				"parent" : 76
+				"parent" : 69
 			},
 			{
 				"command" : 26,
 				"file" : 0,
 				"line" : 342,
-				"parent" : 93
+				"parent" : 95
 			},
 			{
 				"command" : 25,
 				"file" : 0,
 				"line" : 1810,
-				"parent" : 94
+				"parent" : 96
 			},
 			{
 				"command" : 22,
 				"file" : 0,
 				"line" : 1574,
-				"parent" : 95
+				"parent" : 97
 			}
 		]
 	},
@@ -779,7 +791,8 @@
 				4,
 				6,
 				7,
-				8
+				9,
+				10
 			]
 		},
 		{
@@ -951,19 +964,19 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "appUnaReader_autogen::@6890427a1f51a3e7e1df"
+			"backtrace" : 70,
+			"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "appUnaReader_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "appUnaReader_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 75,
-			"id" : "appUnaReader_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 77,
-			"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "appUnaReader_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appUnaReader::@6890427a1f51a3e7e1df",
@@ -1104,7 +1117,8 @@
 				4,
 				6,
 				7,
-				8
+				9,
+				10
 			]
 		},
 		{
@@ -1113,28 +1127,30 @@
 			[
 				2,
 				5,
-				9,
-				18,
-				19,
-				20,
+				8,
+				11,
 				21,
 				22,
 				23,
-				24
+				24,
+				25,
+				26,
+				27
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10,
-				11,
 				12,
 				13,
 				14,
 				15,
 				16,
-				17
+				17,
+				18,
+				19,
+				20
 			]
 		}
 	],
@@ -1193,7 +1209,19 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 93,
+			"path" : "CustomWidgets/BookGrid.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_appUnaReader_raw_qml_0.cpp",
@@ -1233,6 +1261,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_main_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

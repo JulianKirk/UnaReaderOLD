@@ -1,4 +1,5 @@
 module UnaReader
 typeinfo appUnaReader.qmltypes
 prefer :/UnaReader/
+BookGrid 1.0 CustomWidgets/BookGrid.qml
 

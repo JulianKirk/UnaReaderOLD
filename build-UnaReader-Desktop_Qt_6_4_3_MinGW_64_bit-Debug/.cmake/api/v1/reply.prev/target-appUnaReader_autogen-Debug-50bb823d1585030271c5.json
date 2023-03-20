@@ -21,11 +21,11 @@
 		},
 		{
 			"backtrace" : 0,
-			"id" : "appUnaReader_qmlimportscan::@6890427a1f51a3e7e1df"
+			"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "appUnaReader_tooling::@6890427a1f51a3e7e1df"
+			"id" : "appUnaReader_qmlimportscan::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appUnaReader_autogen::@6890427a1f51a3e7e1df",

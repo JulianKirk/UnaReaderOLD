@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/Users/proga/Documents/UnaReader/UnaReader/build-UnaRea
 #############################################
 # Order-only phony target for appUnaReader
 
-build cmake_object_order_depends_target_appUnaReader: phony || .rcc/qmlcache/appUnaReader_main_qml.cpp .rcc/qmlcache/appUnaReader_qmlcache_loader.cpp .rcc/qrc_appUnaReader_raw_qml_0.cpp .rcc/qrc_qmake_UnaReader.cpp UnaReader/appUnaReader.qmltypes appUnaReader_autogen appUnaReader_autogen/mocs_compilation.cpp appUnaReader_autogen/timestamp appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling appunareader_qmltyperegistrations.cpp meta_types/appUnaReader_json_file_list.txt meta_types/appUnaReader_json_file_list.txt.timestamp meta_types/qt6appunareader_debug_metatypes.json meta_types/qt6appunareader_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appUnaReader: phony || .rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp .rcc/qmlcache/appUnaReader_main_qml.cpp .rcc/qmlcache/appUnaReader_qmlcache_loader.cpp .rcc/qrc_appUnaReader_raw_qml_0.cpp .rcc/qrc_qmake_UnaReader.cpp UnaReader/appUnaReader.qmltypes appUnaReader_autogen appUnaReader_autogen/mocs_compilation.cpp appUnaReader_autogen/timestamp appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling appunareader_qmltyperegistrations.cpp meta_types/appUnaReader_json_file_list.txt meta_types/appUnaReader_json_file_list.txt.timestamp meta_types/qt6appunareader_debug_metatypes.json meta_types/qt6appunareader_debug_metatypes.json.gen
 
 build CMakeFiles/appUnaReader.dir/appUnaReader_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appUnaReader_Debug C$:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/appUnaReader_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appUnaReader
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -97,6 +97,14 @@ build CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_main_qml.cpp.obj: C
   OBJECT_DIR = CMakeFiles\appUnaReader.dir
   OBJECT_FILE_DIR = CMakeFiles\appUnaReader.dir\.rcc\qmlcache
 
+build CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp.obj: CXX_COMPILER__appUnaReader_Debug C$:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp || cmake_object_order_depends_target_appUnaReader
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appUnaReader.dir\.rcc\qmlcache\appUnaReader_CustomWidgets\BookGrid_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g
+  INCLUDES = -IC:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/appUnaReader_autogen/include -IC:/Users/proga/Documents/UnaReader/UnaReader/UnaReader -isystem C:/Qt/6.4.3/mingw_64/include/QtQml/6.4.3 -isystem C:/Qt/6.4.3/mingw_64/include/QtQml/6.4.3/QtQml -isystem C:/Qt/6.4.3/mingw_64/include/QtCore/6.4.3 -isystem C:/Qt/6.4.3/mingw_64/include/QtCore/6.4.3/QtCore -isystem C:/Qt/6.4.3/mingw_64/include/QtCore -isystem C:/Qt/6.4.3/mingw_64/include -isystem C:/Qt/6.4.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.4.3/mingw_64/include/QtQml -isystem C:/Qt/6.4.3/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.4.3/mingw_64/include/QtNetwork -isystem C:/Qt/6.4.3/mingw_64/include/QtQuick -isystem C:/Qt/6.4.3/mingw_64/include/QtGui -isystem C:/Qt/6.4.3/mingw_64/include/QtQmlModels -isystem C:/Qt/6.4.3/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appUnaReader.dir
+  OBJECT_FILE_DIR = CMakeFiles\appUnaReader.dir\.rcc\qmlcache\appUnaReader_CustomWidgets
+
 build CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj: CXX_COMPILER__appUnaReader_Debug C$:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_appUnaReader_raw_qml_0.cpp || cmake_object_order_depends_target_appUnaReader
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appUnaReader.dir\.rcc\qrc_appUnaReader_raw_qml_0.cpp.obj.d
@@ -113,7 +121,7 @@ build CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj: CXX_C
 #############################################
 # Link the executable appUnaReader.exe
 
-build appUnaReader.exe: CXX_EXECUTABLE_LINKER__appUnaReader_Debug CMakeFiles/appUnaReader.dir/appUnaReader_autogen/mocs_compilation.cpp.obj CMakeFiles/appUnaReader.dir/main.cpp.obj CMakeFiles/appUnaReader.dir/appunareader_qmltyperegistrations.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qrc_qmake_UnaReader.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_qmlcache_loader.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_main_qml.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj | C$:/Qt/6.4.3/mingw_64/lib/libQt6Quick.a C$:/Qt/6.4.3/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Qml.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Network.a C$:/Qt/6.4.3/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.4.3/mingw_64/lib/libQt6EntryPoint.a || appUnaReader_autogen appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling
+build appUnaReader.exe: CXX_EXECUTABLE_LINKER__appUnaReader_Debug CMakeFiles/appUnaReader.dir/appUnaReader_autogen/mocs_compilation.cpp.obj CMakeFiles/appUnaReader.dir/main.cpp.obj CMakeFiles/appUnaReader.dir/appunareader_qmltyperegistrations.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qrc_qmake_UnaReader.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_qmlcache_loader.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_main_qml.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp.obj CMakeFiles/appUnaReader.dir/.rcc/qrc_appUnaReader_raw_qml_0.cpp.obj | C$:/Qt/6.4.3/mingw_64/lib/libQt6Quick.a C$:/Qt/6.4.3/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Qml.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Network.a C$:/Qt/6.4.3/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.4.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.4.3/mingw_64/lib/libQt6EntryPoint.a || appUnaReader_autogen appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.4.3/mingw_64/lib/libQt6Quick.a  C:/Qt/6.4.3/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.4.3/mingw_64/lib/libQt6Qml.a  C:/Qt/6.4.3/mingw_64/lib/libQt6Network.a  -lws2_32  C:/Qt/6.4.3/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.4.3/mingw_64/lib/libQt6Gui.a  C:/Qt/6.4.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.4.3/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -170,7 +178,7 @@ build all_qmllint_json: phony appUnaReader_qmllint_json
 #############################################
 # Utility command for appUnaReader_tooling
 
-build appUnaReader_tooling: phony UnaReader/main.qml
+build appUnaReader_tooling: phony UnaReader/main.qml UnaReader/CustomWidgets/BookGrid.qml
 
 
 #############################################
@@ -303,9 +311,18 @@ build .rcc/qmlcache/appUnaReader_main_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlca
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appUnaReader_CustomWidgets\BookGrid_qml.cpp
+
+build .rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmlcachegen.exe C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml .rcc/qmake_UnaReader.qrc .rcc/appUnaReader_raw_qml_0.qrc UnaReader/appUnaReader.qmltypes UnaReader/qmldir || appUnaReader_autogen appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling
+  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /UnaReader/CustomWidgets/BookGrid.qml -I C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug -I C:/Qt/6.4.3/mingw_64/./qml -i C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/UnaReader/qmldir --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc -o C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml"
+  DESC = Generating .rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .rcc\qrc_appUnaReader_raw_qml_0.cpp
 
-build .rcc/qrc_appUnaReader_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appUnaReader_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml .rcc/appUnaReader_raw_qml_0.qrc C$:/Qt/6.4.3/mingw_64/./bin/rcc.exe || appUnaReader_autogen appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling
+build .rcc/qrc_appUnaReader_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appUnaReader_raw_qml_0.cpp: CUSTOM_COMMAND C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml .rcc/appUnaReader_raw_qml_0.qrc C$:/Qt/6.4.3/mingw_64/./bin/rcc.exe || appUnaReader_autogen appUnaReader_autogen_timestamp_deps appUnaReader_qmlimportscan appUnaReader_tooling
   COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug && C:\Qt\6.4.3\mingw_64\.\bin\rcc.exe --output C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_appUnaReader_raw_qml_0.cpp --name appUnaReader_raw_qml_0 C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appUnaReader_raw_qml_0
   restat = 1
@@ -339,15 +356,15 @@ build CMakeFiles/appUnaReader_qmltyperegistration | ${cmake_ninja_workdir}CMakeF
 #############################################
 # Custom command for CMakeFiles\appUnaReader_qmllint
 
-build CMakeFiles/appUnaReader_qmllint | ${cmake_ninja_workdir}CMakeFiles/appUnaReader_qmllint: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmllint.exe C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml || all_qmltyperegistrations appUnaReader_autogen_timestamp_deps appUnaReader_qmltyperegistration
-  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/bin/qmllint.exe --bare -I C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug -I C:/Qt/6.4.3/mingw_64/./qml --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml"
+build CMakeFiles/appUnaReader_qmllint | ${cmake_ninja_workdir}CMakeFiles/appUnaReader_qmllint: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmllint.exe C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml || all_qmltyperegistrations appUnaReader_autogen_timestamp_deps appUnaReader_qmltyperegistration
+  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/bin/qmllint.exe --bare -I C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug -I C:/Qt/6.4.3/mingw_64/./qml --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml"
 
 
 #############################################
 # Custom command for CMakeFiles\appUnaReader_qmllint_json
 
-build CMakeFiles/appUnaReader_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appUnaReader_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmllint.exe C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml || all_qmltyperegistrations appUnaReader_autogen_timestamp_deps appUnaReader_qmltyperegistration
-  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/bin/qmllint.exe --bare -I C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug -I C:/Qt/6.4.3/mingw_64/./qml --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml --json C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/appUnaReader_qmllint.json"
+build CMakeFiles/appUnaReader_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appUnaReader_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmllint.exe C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml || all_qmltyperegistrations appUnaReader_autogen_timestamp_deps appUnaReader_qmltyperegistration
+  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/bin/qmllint.exe --bare -I C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug -I C:/Qt/6.4.3/mingw_64/./qml --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmake_UnaReader.qrc --resource C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/appUnaReader_raw_qml_0.qrc C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml --json C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/appUnaReader_qmllint.json"
 
 
 #############################################
@@ -360,6 +377,15 @@ build UnaReader/main.qml | ${cmake_ninja_workdir}UnaReader/main.qml: CUSTOM_COMM
 
 
 #############################################
+# Custom command for UnaReader\CustomWidgets\BookGrid.qml
+
+build UnaReader/CustomWidgets/BookGrid.qml | ${cmake_ninja_workdir}UnaReader/CustomWidgets/BookGrid.qml: CUSTOM_COMMAND C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml
+  COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/UnaReader/CustomWidgets/BookGrid.qml"
+  DESC = Generating UnaReader/CustomWidgets/BookGrid.qml
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\appUnaReader_qmlimportscan
 
 build CMakeFiles/appUnaReader_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appUnaReader_qmlimportscan: phony .qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake
@@ -368,7 +394,7 @@ build CMakeFiles/appUnaReader_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for .qt_plugins\Qt6_QmlPlugins_Imports_appUnaReader.cmake
 
-build .qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmlimportscanner.exe .rcc/qmake_UnaReader.qrc .rcc/appUnaReader_raw_qml_0.qrc C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml
+build .qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.cmake: CUSTOM_COMMAND C$:/Qt/6.4.3/mingw_64/bin/qmlimportscanner.exe .rcc/qmake_UnaReader.qrc .rcc/appUnaReader_raw_qml_0.qrc C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml C$:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml
   COMMAND = cmd.exe /C "cd /D C:\Users\proga\Documents\UnaReader\UnaReader\UnaReader && C:\Users\proga\Documents\UnaReader\UnaReader\build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.4.3/mingw_64/./bin/qmlimportscanner.exe @C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appUnaReader.rsp"
   DESC = Running qmlimportscanner for appUnaReader
   restat = 1

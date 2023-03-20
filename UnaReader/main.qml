@@ -34,10 +34,7 @@ Window {
         Item {
             id: homeTab
 
-            BookGrid 
-            {
-
-            }
+            BookGrid {}
         }
         Item {
             id: discoverTab

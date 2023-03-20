@@ -89,6 +89,30 @@
 				"file" : 0,
 				"line" : 1594,
 				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1727,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1594,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1727,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1594,
+				"parent" : 14
 			}
 		]
 	},
@@ -106,7 +130,9 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3
 			]
 		}
 	],
@@ -120,6 +146,16 @@
 		{
 			"backtrace" : 11,
 			"path" : "main.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 13,
+			"path" : "TestModule.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"path" : "CustomWidgets/BookGrid.qml",
 			"sourceGroupIndex" : 0
 		}
 	],

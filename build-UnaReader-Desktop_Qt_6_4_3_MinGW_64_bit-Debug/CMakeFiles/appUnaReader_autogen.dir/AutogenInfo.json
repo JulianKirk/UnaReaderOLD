@@ -631,6 +631,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_CustomWidgets/BookGrid_qml.cpp",
 		"C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qmlcache/appUnaReader_main_qml.cpp",
 		"C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_appUnaReader_raw_qml_0.cpp",
 		"C:/Users/proga/Documents/UnaReader/UnaReader/build-UnaReader-Desktop_Qt_6_4_3_MinGW_64_bit-Debug/.rcc/qrc_qmake_UnaReader.cpp",

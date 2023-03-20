@@ -34,12 +34,7 @@ Window {
         Item {
             id: homeTab
 
-            /*BookGrid 
-            {
-
-            }*/
-
-            TestObject {}
+            BookGrid {}
         }
         Item {
             id: discoverTab

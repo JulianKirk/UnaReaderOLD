@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/UnaReader/">
     <file alias="main.qml">C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/main.qml</file>
+    <file alias="CustomWidgets/BookGrid.qml">C:/Users/proga/Documents/UnaReader/UnaReader/UnaReader/CustomWidgets/BookGrid.qml</file>
   </qresource>
 </RCC>
 
