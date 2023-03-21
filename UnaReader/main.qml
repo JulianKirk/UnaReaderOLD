@@ -34,18 +34,21 @@ Window {
         Flow {
             id: homeTab
 
-            Rectangle {
-                width: 100
-                height: 100
-                color: "yellow"
-                border.color: "black"
-                border.width: 5
-                radius: 10
+            Item 
+            {
+                width: 15
+                height: 15
             }
 
             BookGrid
             {
                 id : currentBookGrid
+            }
+
+            Item 
+            {
+                width: 15
+                height: 15
             }
         }
         Item {

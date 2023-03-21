@@ -5,7 +5,7 @@ import QtQuick.Layouts
 GridLayout
 {
     id: bookGrid
-    columns: 6
+    columns: 10
 
     columnSpacing: 15
     rowSpacing: 15

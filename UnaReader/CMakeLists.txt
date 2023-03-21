@@ -16,6 +16,7 @@ qt_add_qml_module(appUnaReader
     VERSION 1.0
     QML_FILES main.qml 
     QML_FILES CustomWidgets/BookGrid.qml
+    QML_FILES CustomWidgets/Book.qml
 )
 
 set_target_properties(appUnaReader PROPERTIES
