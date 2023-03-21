@@ -4,12 +4,106 @@ import QtQuick.Layouts
 
 GridLayout
 {
-    id:  bookGrid
-    columns: 3
+    id: bookGrid
+    columns: 6
 
-    Text { text: "Three"; font.bold: true; }
-    Text { text: "words"; color: "red" }
-    Text { text: "in"; font.underline: true }
-    Text { text: "a"; font.pixelSize: 20 }
-    Text { text: "row"; font.strikeout: true }
+    columnSpacing: 15
+    rowSpacing: 15
+
+    Rectangle {
+        width: 100
+        height: 100
+        color: "black"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "yellow"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "red"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "black"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "yellow"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "red"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "black"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "yellow"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "red"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "black"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "yellow"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
+    Rectangle {
+        width: 100
+        height: 100
+        color: "red"
+        border.color: "black"
+        border.width: 5
+        radius: 10
+    }
 }

@@ -2,7 +2,6 @@ import QtQuick 2.0
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
-import "files:/CustomWidgets"
 
 Window {
     width: 1280
@@ -30,11 +29,24 @@ Window {
         currentIndex: menuBar.currentIndex
 
         anchors.top : menuBar.bottom
+        anchors.margins: 10
         
-        Item {
+        Flow {
             id: homeTab
 
-            BookGrid {}
+            Rectangle {
+                width: 100
+                height: 100
+                color: "yellow"
+                border.color: "black"
+                border.width: 5
+                radius: 10
+            }
+
+            BookGrid
+            {
+                id : currentBookGrid
+            }
         }
         Item {
             id: discoverTab
